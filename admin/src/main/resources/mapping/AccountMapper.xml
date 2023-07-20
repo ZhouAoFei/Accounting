@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java.admin.mapper.AccountMapper">
+
+    <resultMap id="BaseResultMap" type="com.java.admin.entity.Account">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="create_time" jdbcType="DATE" property="createTime" />
+        <result column="account_type" jdbcType="INTEGER" property="accountType" />
+        <result column="account_desc" jdbcType="VARCHAR" property="accountDesc" />
+        <result column="account_money" jdbcType="DECIMAL" property="accountMoney" />
+    </resultMap>
+
+    <!--根据ID查询账目信息-->
+    <select id="getById" resultMap="BaseResultMap">
+        select * from t_account where id = #{id}
+    </select>
+
+    <!--根据ID删除指定账目记录-->
+    <delete id="deleteById" parameterType="int">
+        delete from t_account where id = #{id}
+    </delete>
+
+    <!--查询所有账目信息-->
+    <select id="selectAll" resultMap="BaseResultMap">
+        select * from t_account order by create_time desc
+    </select>
+
+    <select id="getLineData" resultType="com.java.admin.vo.DataVo">
+        select DATE_FORMAT(t1.create_time, '%Y%m') as name, IFNULL(sum(t1.account_money), 0.00) as value
+        from t_account t1
+        WHERE t1.create_time >= DATE_SUB(CURDATE(), INTERVAL 6 MONTH)
+        and t1.account_type = #{type}
+        group by DATE_FORMAT(t1.create_time, '%Y%m')
+    </select>
+
+
+    <!--新增账目-->
+    <insert id="save" parameterType="com.java.admin.entity.Account" >
+        insert into t_account
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="createTime != null" >
+                create_time,
+            </if>
+            <if test="accountType != null" >
+                account_type,
+            </if>
+            <if test="accountDesc != null" >
+                account_desc,
+            </if>
+            <if test="accountMoney != null" >
+                account_money,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="createTime != null" >
+                #{createTime},
+            </if>
+            <if test="accountType != null" >
+                #{accountType},
+            </if>
+            <if test="accountDesc != null" >
+                #{accountDesc},
+            </if>
+            <if test="accountMoney != null" >
+                #{accountMoney},
+            </if>
+        </trim>
+    </insert>
+
+    <!--根据ID更改账目信息-->
+    <update id="update" parameterType="com.java.admin.entity.Account">
+        update t_account
+        <set >
+            <if test="createTime != null" >
+                create_time = #{createTime},
+            </if>
+            <if test="accountType != null" >
+                account_type = #{accountType},
+            </if>
+            <if test="accountDesc != null" >
+                account_desc = #{accountDesc},
+            </if>
+            <if test="accountMoney != null" >
+                account_money = #{accountMoney},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+</mapper>

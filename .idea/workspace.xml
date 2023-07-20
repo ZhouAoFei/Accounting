@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1ffa308-07f0-4495-a507-4d37bac7d017" name="默认更改列表" comment="首次提交，一个小的开心记账系统" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/web" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\Maven\JAR" />
+        <option name="userSettingsFile" value="D:\Program Files\Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2SDvXyp1uuPPea49BQpaGy41Wda" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/Java/Yun/parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "8e763658a32062a99b6f3e484011c436",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\Yun\parent\web\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.java.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="D:/Program Files/node-v18.16.1-win-x64/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1ffa308-07f0-4495-a507-4d37bac7d017" name="默认更改列表" comment="" />
+      <created>1688694009774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688694009774</updated>
+      <workItem from="1688694012154" duration="580000" />
+      <workItem from="1688694608558" duration="7941000" />
+      <workItem from="1688723896290" duration="15000" />
+      <workItem from="1688725757348" duration="600000" />
+      <workItem from="1688952035750" duration="2445000" />
+      <workItem from="1688958871184" duration="193000" />
+      <workItem from="1688971061389" duration="6819000" />
+      <workItem from="1688992930191" duration="1022000" />
+      <workItem from="1689037873149" duration="7668000" />
+      <workItem from="1689056741593" duration="2210000" />
+      <workItem from="1689062832991" duration="1500000" />
+      <workItem from="1689126636324" duration="1779000" />
+      <workItem from="1689129094069" duration="272000" />
+      <workItem from="1689129863130" duration="1464000" />
+      <workItem from="1689132034248" duration="68000" />
+      <workItem from="1689133374919" duration="442000" />
+      <workItem from="1689150583337" duration="112000" />
+      <workItem from="1689319344516" duration="458000" />
+      <workItem from="1689319808895" duration="175000" />
+      <workItem from="1689321592259" duration="332000" />
+      <workItem from="1689321970055" duration="390000" />
+      <workItem from="1689330373661" duration="26000" />
+      <workItem from="1689864864617" duration="616000" />
+      <workItem from="1689865654138" duration="585000" />
+    </task>
+    <task id="LOCAL-00001" summary="首次提交，一个小的开心记账系统">
+      <created>1689864950999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689864950999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="file:$PROJECT_DIR$/web/vue.config.js" />
+                  <option value="dir:E:/Java/Yun/parent/web/public" />
+                  <option value="file:$PROJECT_DIR$/web/package-lock.json" />
+                  <option value="file:$PROJECT_DIR$/web/babel.config.js" />
+                  <option value="dir:E:/Java/Yun/parent/web/src" />
+                  <option value="file:$PROJECT_DIR$/web/package.json" />
+                  <option value="file:$PROJECT_DIR$/web/README.md" />
+                  <option value="file:$PROJECT_DIR$/web/jsconfig.json" />
+                  <option value="file:$PROJECT_DIR$/web/.gitignore" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="6abf4d42-1324-4a40-929d-5dbe1935c285">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="file:$PROJECT_DIR$/web/vue.config.js" />
+                        <option value="dir:E:/Java/Yun/parent/web/public" />
+                        <option value="file:$PROJECT_DIR$/web/package-lock.json" />
+                        <option value="file:$PROJECT_DIR$/web/babel.config.js" />
+                        <option value="dir:E:/Java/Yun/parent/web/src" />
+                        <option value="file:$PROJECT_DIR$/web/package.json" />
+                        <option value="file:$PROJECT_DIR$/web/README.md" />
+                        <option value="file:$PROJECT_DIR$/web/jsconfig.json" />
+                        <option value="file:$PROJECT_DIR$/web/.gitignore" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="首次提交，一个小的开心记账系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次提交，一个小的开心记账系统" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
